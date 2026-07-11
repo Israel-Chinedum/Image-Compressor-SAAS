@@ -1,0 +1,17 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://mydomain/</loc>
+</url>
+
+<url>
+<loc>https://mydomain/compare</loc>
+</url>
+
+<url>
+<loc>https://mydomain/pricing</loc>
+</url>
+
+<url>
+<loc>https://mydomain/about</loc>
+</url>
+</urlset>

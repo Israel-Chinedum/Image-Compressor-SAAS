@@ -1,9 +1,9 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @theme {
-  --font-display: 'Archivo Expanded', 'Archivo', sans-serif;
-  --font-body: 'Archivo', -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  --font-display: "Archivo Expanded", "Archivo", sans-serif;
+  --font-body: "Archivo", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
 
   --color-ink: #0b0d0f;
   --color-paper: #f5f3ee;
@@ -29,7 +29,7 @@
   --border-color-strong: rgb(11 13 15 / 0.22);
 }
 
-[data-theme='dark'] {
+[data-theme="dark"] {
   --bg: #101214;
   --bg-raised: #17191c;
   --fg: #f0efe9;
@@ -42,7 +42,7 @@
 html {
   color-scheme: light;
 }
-html[data-theme='dark'] {
+html[data-theme="dark"] {
   color-scheme: dark;
 }
 
@@ -50,10 +50,15 @@ body {
   background-color: var(--bg);
   color: var(--fg);
   font-family: var(--font-body);
-  transition: background-color 0.25s var(--ease-squeeze), color 0.25s var(--ease-squeeze);
+  transition:
+    background-color 0.25s var(--ease-squeeze),
+    color 0.25s var(--ease-squeeze);
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: var(--font-display);
   font-weight: 700;
   line-height: 1.05;
@@ -61,7 +66,9 @@ h1, h2, h3, h4 {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
+  *,
+  *::before,
+  *::after {
     animation-duration: 0.001ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.001ms !important;
