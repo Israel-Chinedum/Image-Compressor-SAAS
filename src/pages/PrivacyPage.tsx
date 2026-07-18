@@ -117,7 +117,12 @@ const sections: Section[] = [
 export function PrivacyPage() {
   return (
     <>
-      <Seo title="Squeeze - Privacy" />
+      <Seo
+        title="Squeeze - Privacy"
+        url="https://fastidious-gingersnap-eb4d73.netlify.app/privacy"
+        description="Read the Squeeze privacy policy. Learn why your files are 100% secure with us because our image optimization engine never uploads data to an external server.
+"
+      />
       {/* eyebrow="privacy policy" title="Your files stay yours." dek=
       {`Effective ${effectiveDate}. Plain-language summary: nothing you compress is ever uploaded or stored.`} */}
       <div className="w-[90dvw] sm:w-[80dvw] lg:w-200 mx-auto mt-10 mb-20">

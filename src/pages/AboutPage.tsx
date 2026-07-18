@@ -42,7 +42,12 @@ function ShrinkingStat() {
 export function AboutPage() {
   return (
     <>
-      <Seo title="Squeeze - About" />
+      <Seo
+        title="Squeeze - About"
+        url="https://fastidious-gingersnap-eb4d73.netlify.app/about"
+        description="Discover the story behind Squeeze. Learn how our developer-focused engineering enables 100% browser-side image compression that prioritizes your data privacy and speed.
+"
+      />
       <div className="w-[90dvw] sm:w-[80dvw] lg:w-200 mx-auto mt-10">
         <section>
           <div className="mb-8 flex items-baseline gap-3 font-mono text-2xl">

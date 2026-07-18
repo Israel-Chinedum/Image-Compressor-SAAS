@@ -32,7 +32,12 @@ const TIERS = [
 export function Pricing() {
   return (
     <>
-      <Seo title="Squeeze - Pricing" />
+      <Seo
+        title="Squeeze - Pricing"
+        url="https://fastidious-gingersnap-eb4d73.netlify.app/pricing"
+        description="Check out Squeeze pricing tiers. Spoiler alert: Our fully automated browser-side image compression tool is 100% free with no hidden premium subscriptions.
+"
+      />
       <div className="mx-auto flex max-w-4xl flex-col items-center gap-12 px-6 py-16">
         <div className="flex flex-col items-center gap-3 text-center">
           <h1 className="text-4xl font-extrabold">Simple pricing</h1>

@@ -1,17 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>https://mydomain/</loc>
-</url>
+  <url>
+    <loc>https://fastidious-gingersnap-eb4d73.netlify.app/</loc>
+  </url>
 
-<url>
-<loc>https://mydomain/compare</loc>
-</url>
+  <url>
+    <loc>https://fastidious-gingersnap-eb4d73.netlify.app/compare</loc>
+  </url>
 
-<url>
-<loc>https://mydomain/pricing</loc>
-</url>
+  <url>
+    <loc>https://fastidious-gingersnap-eb4d73.netlify.app/pricing</loc>
+  </url>
 
-<url>
-<loc>https://mydomain/about</loc>
-</url>
+  <url>
+    <loc>https://fastidious-gingersnap-eb4d73.netlify.app/about</loc>
+  </url>
+
+  <url>
+    <loc>https://fastidious-gingersnap-eb4d73.netlify.app/privacy</loc>
+  </url>
+
+  <url>
+    <loc>https://fastidious-gingersnap-eb4d73.netlify.app/contact</loc>
+  </url>
 </urlset>

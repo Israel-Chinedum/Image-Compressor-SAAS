@@ -30,7 +30,12 @@ export function ContactPage() {
 
   return (
     <>
-      <Seo title="Squeeze - Contact us" />
+      <Seo
+        title="Squeeze - Contact us"
+        url="https://fastidious-gingersnap-eb4d73.netlify.app/contact"
+        description="Have questions, feedback, or a feature request for Squeeze? Get in touch with our tech support team and help us build a faster image optimizer.
+"
+      />
       {status === "sent" ? (
         <div className="rounded-lg border border-[var(--color-accent,#7dd3c0)]/40 bg-[var(--color-accent,#7dd3c0)]/10 p-6">
           <p className="font-medium text-[var(--color-accent,#7dd3c0)]">

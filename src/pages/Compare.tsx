@@ -15,7 +15,12 @@ export function Compare() {
 
   return (
     <>
-      <Seo title="Squeeze - Compare" />
+      <Seo
+        title="Squeeze - Compare"
+        url="https://fastidious-gingersnap-eb4d73.netlify.app/compare"
+        description="Compare your original and compressed images side-by-side. Use the interactive slider tool to verify image quality and pixel retention after file optimization.
+"
+      />
       {done.length === 0 && (
         <div className="mx-auto flex max-w-2xl flex-col items-center gap-3 px-6 py-24 text-center">
           <h1 className="text-2xl font-bold">Nothing to compare yet</h1>
