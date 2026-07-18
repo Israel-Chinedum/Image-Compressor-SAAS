@@ -41,7 +41,7 @@ function ShrinkingStat() {
 export function AboutPage() {
   return (
     <>
-      <div className="w-200 mx-auto mt-10">
+      <div className="w-[90dvw] sm:w-[80dvw] lg:w-200 mx-auto mt-10">
         <section>
           <div className="mb-8 flex items-baseline gap-3 font-mono text-2xl">
             <ShrinkingStat />

@@ -47,7 +47,7 @@ export function Header() {
         </NavLink>
 
         <nav
-          className={`${!showMenu && "-translate-x-full"} sm:translate-x-0 transition-[1s] absolute sm:static h-dvh sm:h-max top-0 left-0 w-50 sm:w-max bg-(--fg) sm:bg-transparent shadow-2xl z-10 flex-col sm:items-center gap-1 sm:rounded-full sm:border border-(--border-color) p-1 flex sm:flex-row`}
+          className={`${!showMenu && "-translate-x-full"} sm:translate-x-0 transition-[1s] absolute sm:static h-dvh sm:h-max top-0 left-0 w-50 sm:w-max bg-(--fg) sm:bg-transparent shadow-2xl z-10 flex-col sm:items-center gap-1 sm:rounded-full sm:border border-(--border-color) p-1 flex sm:flex-row sm:flex-wrap sm:border-none`}
           aria-label="Primary"
         >
           <div

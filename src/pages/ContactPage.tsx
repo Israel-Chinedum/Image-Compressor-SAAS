@@ -123,7 +123,7 @@ export function ContactPage() {
           <button
             type="submit"
             disabled={status === "sending"}
-            className="w-full rounded-md bg-signal px-4 py-3 text-sm font-medium text-gray-900 text-[1rem] transition-opacity hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto"
+            className="mb-10 w-full rounded-md bg-signal px-4 py-3 text-sm font-medium text-gray-900 text-[1rem] transition-opacity hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto"
           >
             {status === "sending" ? "Sending…" : "Send message"}
           </button>

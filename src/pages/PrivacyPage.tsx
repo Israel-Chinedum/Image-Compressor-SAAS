@@ -117,7 +117,7 @@ export function PrivacyPage() {
     <>
       {/* eyebrow="privacy policy" title="Your files stay yours." dek=
       {`Effective ${effectiveDate}. Plain-language summary: nothing you compress is ever uploaded or stored.`} */}
-      <div className="w-200 mx-auto mt-10 mb-20">
+      <div className="w-[90dvw] sm:w-[80dvw] lg:w-200 mx-auto mt-10 mb-20">
         <div className="space-y-10">
           {sections.map((s) => (
             <section
