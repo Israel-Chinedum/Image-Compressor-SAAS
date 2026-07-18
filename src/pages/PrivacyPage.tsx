@@ -1,5 +1,3 @@
-// import { StaticPageLayout } from "./StaticPageLayout";
-
 interface Section {
   tag: string; // byte-style tag, e.g. "0x01"
   heading: string;
@@ -115,8 +113,6 @@ const sections: Section[] = [
 ];
 
 export function PrivacyPage() {
-  const effectiveDate = "July 11, 2026";
-
   return (
     <>
       {/* eyebrow="privacy policy" title="Your files stay yours." dek=
