@@ -1,3 +1,5 @@
+import Seo from "@/components/SEO";
+
 interface Section {
   tag: string; // byte-style tag, e.g. "0x01"
   heading: string;
@@ -115,6 +117,7 @@ const sections: Section[] = [
 export function PrivacyPage() {
   return (
     <>
+      <Seo title="Squeeze - Privacy" />
       {/* eyebrow="privacy policy" title="Your files stay yours." dek=
       {`Effective ${effectiveDate}. Plain-language summary: nothing you compress is ever uploaded or stored.`} */}
       <div className="w-[90dvw] sm:w-[80dvw] lg:w-200 mx-auto mt-10 mb-20">

@@ -1,3 +1,4 @@
+import Seo from "@/components/SEO";
 import { useState, type FormEvent } from "react";
 // import { StaticPageLayout } from "./StaticPageLayout";
 // import { sendContactMessage } from "../lib/emailjs";
@@ -29,6 +30,7 @@ export function ContactPage() {
 
   return (
     <>
+      <Seo title="Squeeze - Contact us" />
       {status === "sent" ? (
         <div className="rounded-lg border border-[var(--color-accent,#7dd3c0)]/40 bg-[var(--color-accent,#7dd3c0)]/10 p-6">
           <p className="font-medium text-[var(--color-accent,#7dd3c0)]">

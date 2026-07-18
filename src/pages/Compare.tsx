@@ -15,7 +15,7 @@ export function Compare() {
 
   return (
     <>
-      <Seo title="Squeeze - Compress" />
+      <Seo title="Squeeze - Compare" />
       {done.length === 0 && (
         <div className="mx-auto flex max-w-2xl flex-col items-center gap-3 px-6 py-24 text-center">
           <h1 className="text-2xl font-bold">Nothing to compare yet</h1>
