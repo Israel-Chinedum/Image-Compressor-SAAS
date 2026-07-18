@@ -74,6 +74,9 @@ export function Header() {
           </div>
           {NAV_LINKS.map((link) => (
             <NavLink
+              onClick={() => {
+                setShowMenu(false);
+              }}
               key={link.to}
               to={link.to}
               end={link.to === "/"}
