@@ -1,11 +1,13 @@
-import { Routes, Route } from 'react-router-dom';
-import { Header } from '@/components/Header';
-import { Footer } from '@/components/Footer';
-import { Home } from '@/pages/Home';
-import { Compare } from '@/pages/Compare';
-import { Pricing } from '@/pages/Pricing';
-import { About } from '@/pages/About';
-import { NotFound } from '@/pages/NotFound';
+import { Routes, Route } from "react-router-dom";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+import { Home } from "@/pages/Home";
+import { Compare } from "@/pages/Compare";
+import { Pricing } from "@/pages/Pricing";
+import { NotFound } from "@/pages/NotFound";
+import { AboutPage } from "./pages/AboutPage";
+import { ContactPage } from "./pages/ContactPage";
+import { PrivacyPage } from "./pages/PrivacyPage";
 
 export default function App() {
   return (
@@ -16,7 +18,9 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/compare" element={<Compare />} />
           <Route path="/pricing" element={<Pricing />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/privacy" element={<PrivacyPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>

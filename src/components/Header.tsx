@@ -8,6 +8,8 @@ const NAV_LINKS = [
   { to: "/compare", label: "Compare" },
   { to: "/pricing", label: "Pricing" },
   { to: "/about", label: "About" },
+  { to: "/privacy", label: "Privacy" },
+  { to: "/contact", label: "Contact" },
 ];
 
 export function Header() {
