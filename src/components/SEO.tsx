@@ -12,7 +12,7 @@ export default function Seo({
   title,
   description = "Compress images instantly in your browser - no uploads, no waiting. Squeeze reduces JPEG, PNG, and WebP file sizes while keeping the quality you need.",
   keywords = "image compressor, compress, jpg, compress png, reduce image file size, online image compression, webp converter",
-  image = "https://fastidious-gingersnap-eb4d73.netlify.app/squeeze-logo.png",
+  image = "https://fastidious-gingersnap-eb4d73.netlify.app/favicon.png",
   url = "https://fastidious-gingersnap-eb4d73.netlify.app/",
 }: SeoProps) {
   return (
